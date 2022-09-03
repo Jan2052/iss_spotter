@@ -59,7 +59,7 @@ nextISSTimesForMyLocation((error, passTimes) => {
   if (error) {
     return console.log("It didn't work!", error);
   }
-  // success, print out the deets!
+
   printPassTimes(passTimes)
 });
 
@@ -67,5 +67,3 @@ nextISSTimesForMyLocation((error, passTimes) => {
 // module.exports = { fetchCoordsByIP };
 // module.exports = { fetchISSFlyOverTimes };
 module.exports = { nextISSTimesForMyLocation };
-
-// { latitude: 43.653226, longitude: -79.3831843 }
